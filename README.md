@@ -76,6 +76,23 @@ Navigate to your local TurboGears app directory
 
 Initialize a git repository if you haven't already done so by running `git init`. 
 
+### Create a Procfile
+
+In your app's root folder, create a file named **Procfile** (no extension) and add the following line:
+
+```
+web: python turbogears-demo.py
+```
+
+### Port and Host
+
+In your main **.py** file, make sure you allow other connections to the server by passing `0.0.0.0` as host and Jekyo's port:
+
+```
+httpd = make_server('0.0.0.0', 4139, application)
+httpd.serve_forever()
+```
+
 ### Create an empty Jekyo app:
 
 `jekyo create` 
