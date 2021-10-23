@@ -36,7 +36,7 @@ Using the **arrows** on your keyboard, select **turbogears** and press **enter**
 ```
 When prompted, enter the desired name for your TurboGears app. 
 
-`Application name?: project-name`
+`Application name?: turbogears-tutorial`
 
 This will create a basic TurboGears app in the current directory by cloning this [TurboGears starter app](https://github.com/jekyo/turbogears-getting-started) repository.
 
@@ -49,7 +49,7 @@ Application created!
 
 To deploy the app, first navigate to the newly created directory:
 
-`cd project-name`
+`cd turbogears-tutorial`
 
 Now you can deploy this app to Jekyo by running: 
 
@@ -63,10 +63,10 @@ After a while, you should see something like this:
 ➜  Publishing application, this might take a while  ... OK
 ➜  Deploying application ... OK        
 ➜  Waiting for application to start ... OK
-➜  Visit your app on: https://project-name.jekyo.app ... OK
+➜  Visit your app on: https://turbogears-tutorial.jekyo.app ... OK
 ```
 
-You can now browse to your TurboGears app on https://project-name.jekyo.app (replace 'project-name' with your app name)
+You can now browse to your TurboGears app on https://turbogears-tutorial.jekyo.app (replace 'turbogears-tutorial' with your app name)
 
 ## 2. Deploying an existing TurboGears app
 
