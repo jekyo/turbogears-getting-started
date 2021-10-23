@@ -1,1 +1,1 @@
-web: python turbogears-demo.py
+web: pip install TurboGears2 && python turbogears-demo.py
