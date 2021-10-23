@@ -1,1 +1,2 @@
-web: apt install python3.8 && pip install TurboGears2 && python turbogears-demo.py
+worker: pip install TurboGears2 
+web: python turbogears-demo.py
