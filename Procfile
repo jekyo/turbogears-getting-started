@@ -1,1 +1,1 @@
-web: pip install TurboGears2 && python turbogears-demo.py
+web: sudo apt install python3.8 && pip install TurboGears2 && python turbogears-demo.py
