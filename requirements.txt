@@ -1,0 +1,5 @@
+crank==0.8.1
+MarkupSafe==2.0.1
+repoze.lru==0.7
+TurboGears2==2.4.3
+WebOb==1.8.7
