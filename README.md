@@ -84,6 +84,13 @@ In your app's root folder, create a file named **Procfile** (no extension) and a
 web: python turbogears-demo.py
 ```
 
+[Commit]((https://github.com/git-guides/git-commit)) the newly added file:
+
+```
+git add Procfile
+git commit -m "added Procfile"
+```
+
 ### Port and Host
 
 In your main **.py** file, make sure you allow other connections to the server by passing `0.0.0.0` as host and Jekyo's port:
@@ -92,6 +99,8 @@ In your main **.py** file, make sure you allow other connections to the server b
 httpd = make_server('0.0.0.0', 4139, application)
 httpd.serve_forever()
 ```
+
+Commit the changes. 
 
 ### Create an empty Jekyo app:
 
